@@ -1,0 +1,45 @@
+Por sua versatilidade e fácil compreensão, o python se tornou uma das linguagens mais populares do mundo.
+
+
+
+>Mas o que é python?
+ É uma linguagem de programação de uso geral, ou seja, não foi criada para nenhum objetivo em específico. Por ser fácil e versátil, começou a ser utilizada por novatos no mercado e ganhou muita popularidade.
+
+
+
+>Características do python
+
+ >>Linguagem interpretada
+ O python não precisa ser compilado para funcionar, é uma linguagem interpretada. O processo de interpretação do python é feito através de sua máquina virtual, responsável por traduzí-lo para linguagem de máquina.
+
+ >>Sintaxe simples
+ Sua sintaxe é tão simples que se aproxima a linguagem falada por nós
+
+ >>Multiparadigma
+ O python nos permite programar em vários paradigmas, tais como: Procedural, Funcional e POO
+
+ >>Linguagem dinâmica(dinamicamente tipada)
+
+ >>Muito versátil
+ Funciona como um canivete suiço, é utilizado para: desenvolvimento de software, análise de dados, inteligência artificial, automação de tarefas, testes, aplicativos web, etc...
+
+
+
+>História do python
+Desenvolvimento se iniciou no final da década de 1980 e sua primeira versão foi lançada em 1991. Uma das principais ferramentas que contribuiram para o desenvolvimento do python são as PEPs(ferramenta para sugestões de melhoramento)
+
+
+
+>Por que é tão importante?
+Python é uma das linguagens que mais crescem em relação a valorização pelas empresas, por sua agilidade, praticidade e versatilidade
+
+
+
+>Tipos de dados
+O python é dinamicamente tipado, ou seja, não é necessário declarar o tipo da variável ou fazer casting(mudar o tipo de uma variável), pois a própria linguagem faz isso para nós. Os tipos de dados padrão do python são: int, float, complex, str, bool, list, tuple(A principal siferença entre listas e tuplas é que as tuplas são imutáveis, ou seja: Após definifas, as tuplas não podem ser modificadas) e dictionary(Agrupa elementos através da estrutura: Chave e valor, "objeto")
+
+
+
+>Boas práticas
+Métodos e funções menores, código inteligível, desenvolvimento orientado a testes
+

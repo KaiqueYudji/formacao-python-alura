@@ -1,0 +1,15 @@
+>Qual é a convenção de nomenclatura do python?
+- A nomenclatura faz parte das boas práticas de uma linguagem.O python possui a seguinte convenção de nomenclatura(recomendações para nomear identificadores):
+
+ >>snake_case para variáveis, funções e métodos;
+ 
+ >>PascalCase para classes
+
+ >>SCREAMING_SNAKE_CASE para constantes
+
+
+
+>Interpolar strings
+- Interpolar strings significa juntar textos com variáveis ou outros elementos. Existem diversas maneiras de interpolação no python:
+
+ >> f'texto{variavel}' 
