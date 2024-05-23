@@ -1,3 +1,5 @@
+#Esta é uma API criada por nós, utilizando o framework FastAPI;
+
 from fastapi import FastAPI, Query
 import requests
 

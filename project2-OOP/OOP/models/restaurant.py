@@ -4,7 +4,7 @@ from models.rating import Rating
 from models.menu.item_menu import ItemMenu
 
 class Restaurant:
-    #Estes são atributos são atributos da classe
+    #Estes são atributos da classe
     #Para entender melhor a diferença entre atributos de classe e atributos de método leia o aruivo tipo_de_atributos.md
     restaurants = []
 
@@ -17,7 +17,7 @@ class Restaurant:
         self._ratings = []
         self._menu = []
 
-        self.restaurants.append(self)#Self representa a instância da classe que está sendo criada
+        self.restaurants.append(self)#Self representa a instância da classe que está sendo criada(como se fosse a junção de todos os atributos defindos a cima)
 
 
     def __str__(self): # É um método especial responsável por exibir as informações da classe em string, com isso, apenas ao printar a instância da class, o que tem dentro do meu __str__ será exibido. Se o str for removido, ao printar apenas a instancia da class, será exibido apenas o endereço de memória da instância
@@ -70,9 +70,9 @@ class Restaurant:
     def exhibit_menu(self):
         print(f'Cardápio do restaurante {self._name}\n')
 
-        for i, item in enumerate(self._menu, start=1):
+        for i, item in enumerate(self._menu, start=1):#É uma função que permite percorrer uma lista (ou qualquer iterável) ao mesmo tempo em que acompanha o índice de cada elemento.
             
-            if hasattr(item, '_description'):
+            if hasattr(item, '_description'):#Verifica se o objeto tem a chave passada como parâmetro
                 print(f'{i}. Nome:{item._name.ljust(25)} | Preço: R${ str(item._price).ljust(25)} | Description: {item._description}')
             else:
                 print(f'{i}. Nome:{item._name.ljust(25)} | Preço: R${ str(item._price).ljust(25)} | Size: {item._size}') 
